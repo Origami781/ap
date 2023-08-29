@@ -1,0 +1,30 @@
+body{
+background-image:url("musicality.jpg");   
+background-size:cover; 
+font-family: 'Shadows Into Light', cursive;
+}
+
+canvas{
+border-color:rgb(205,236,255);
+border-width:11.5px;
+border-style:ridge;
+background-color:rgb(0, 0, 0);
+}
+
+
+#justbetter{
+    background-color:rgb(255, 0, 0);
+    animation:facename3 15s infinite;
+}
+
+#note{
+font-size:21px;    
+}
+@keyframes facename3{
+    0%{background-color:rgb(255, 0, 0); }
+    20%{background-color:rgb(255, 128, 0); }
+    40%{background-color:rgb(255, 213, 0); }
+    60%{background-color:rgb(0, 255, 102); }
+    80%{background-color:rgb(0, 213, 255); }
+    100%{background-color:rgb(255, 0, 0); }
+     }
